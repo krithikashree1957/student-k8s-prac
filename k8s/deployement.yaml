@@ -14,7 +14,7 @@ spec:
  spec:
  containers:
  - name: practical-app
- image: krithika2013/k8s-practical-app:REPLACE_WITH_PUSH_1_COMMIT_SHA
+ image: krithika2013/k8s-practical-app:7d04a454c92d94c28ec0d13f5f134fd77f89f6ff
  ports:
  - containerPort: 5000
  readinessProbe:
